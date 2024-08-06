@@ -12,5 +12,5 @@ typedef struct Queue
 	Node* tail;
 } Queue;
 
-bool enqueue(Queue* q, int value);
+int enqueue(Queue* q, int value);
 int dequeue(Queue* q);
